@@ -39,6 +39,6 @@ abuela(Abuela,Nieto):-progenitor(Abuela,X),progenitor(X,Nieto),mujer(Abuela).
 
 hermano(Hermano,X):-hombre(Hermano),padre(Padre,Hermano),padre(Padre,X),madre(Madre,Hermano),madre(Madre,X),Hermano\=X.
 
-%hola pruebaa
+
 
 
