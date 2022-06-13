@@ -61,7 +61,13 @@ orbita(pluton,nix).
 orbita(pluton,hydra).
 
 
-%-----------
-planeta(X):-orbita(X,_),not(estrella(X)).
+%---recordar que las palabras con mayusculas son variables
+
+%-a
+planeta(Planeta):-orbita(Planeta,_),not(estrella(Planeta)),!.
+luna(Luna):-orbita(_,Luna),not(planeta(Luna)).
+lunade(Planeta,Luna):-orbita(Planeta,Luna),planeta(Planeta),luna(Luna).
+%----
+
 
 
