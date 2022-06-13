@@ -1,1 +1,1 @@
-# PruebasUbuntu
+# Ejercicios Prolog
