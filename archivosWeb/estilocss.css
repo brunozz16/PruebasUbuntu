@@ -51,10 +51,14 @@ body{
     list-style: none;
 }
 .menu_desplegable li a{
-    
-    padding: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
     
 }
-.menu_desplegable li:hover{
+.menu_desplegable li a:hover{
     background-color: antiquewhite;
+    color: black;
 }
