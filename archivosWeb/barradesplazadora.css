@@ -1,6 +1,8 @@
 .menu_desplegable{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0px; 
     display: flex;
-   
     background-color: black;
     color: aliceblue;
     text-decoration: none;
