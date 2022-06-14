@@ -37,7 +37,7 @@ madre(Madre,Hijo):-progenitor(Madre,Hijo),mujer(Madre).
 abuelo(Abuelo,Nieto):-progenitor(Abuelo,X),progenitor(X,Nieto),hombre(Abuelo).
 abuela(Abuela,Nieto):-progenitor(Abuela,X),progenitor(X,Nieto),mujer(Abuela).
 
-
+%prueba de guia
 
 
 
